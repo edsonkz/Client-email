@@ -1,0 +1,77 @@
+.emails_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 30px;
+    max-width: 700px;
+    max-height: 700px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: #F2FEFE;
+    box-shadow: 0px 0px 2px gainsboro;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px gainsboro;
+    padding: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    justify-content: space-around;
+
+    font-size: 15px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.email:hover {
+    opacity: 0.7;
+}
+
+.email_label {
+    font-size: 12px;
+}
+.link_to {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+.send_email {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    border: 0px;
+
+    background-color: gainsboro;
+    color: black;
+
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.send_email:hover {
+    opacity: 0.7;
+}
+
+.send_email:focus {
+    background-color: gray;
+}
